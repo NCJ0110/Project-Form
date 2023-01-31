@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+    <title>Project:Form</title>
+  </head>
+  <body>
+    <div class="page-container">
+      <div class="hero">
+        <div class="logo">
+          <img src="./images/earth-logo.png" alt="earth logo" />
+          <p>e:rth</p>
+        </div>
+      </div>
+      <div class="main">
+        <header class="intro">
+          <p>
+            The world is in dire need of saviours, we are at the brink of
+            succumbing to the alien threat which has implanted its tenticles
+            upon our beautiful mother earth.
+          </p>
+
+          <p>
+            Join the Earth Defence Force today and ensure a brighter tomorrow
+            for all earthlings.
+          </p>
+        </header>
+        <section class="signup-form">
+          <h2>Be a part of the resistance!</h2>
+          <form action="" id="sign-up-form">
+            <div class="form-row">
+              <label for="first-name">first name</label>
+              <input type="text" id="first-name" name="first-name" />
+              <div class="error"></div>
+            </div>
+            <div class="form-row">
+              <label for="last-name">last-name</label>
+              <input type="text" id="last-name" name="last-name" />
+              <div class="error"></div>
+            </div>
+            <div class="form-row">
+              <label for="email">email</label>
+              <input type="email" id="email" name="email" />
+              <div class="error"></div>
+            </div>
+            <div class="form-row">
+              <label for="phone-number">phone number</label>
+              <input type="tel" id="phone-number" name="phone-number" />
+              <div class="error"></div>
+            </div>
+            <div class="form-row">
+              <label for="password-one">password</label>
+              <input type="password" id="password-one" name="password-one" />
+              <div class="error"></div>
+            </div>
+            <div class="form-row">
+              <label for="password-two">confirm password</label>
+              <input
+                type="password"
+                id="password-two"
+                name="password-two"
+              />
+              <div class="error"></div>
+            </div>
+          </form>
+        </section>
+        <footer class="form-footer">
+          <button class="sign-up-btn" type="submit" form="sign-up-form">Sign Up</button>
+          <p>Got an account? <a href=""><span></span>Log In</span></a> </p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
